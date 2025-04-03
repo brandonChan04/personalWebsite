@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Inter:wght@400;600&display=swap');
 
-
-
 body {
     font-family: 'Inter', sans-serif;  /* Default font */
     background-color: #121212;
+    align-items: center;
+    /* padding-left: 25%;
+    padding-right: 25%; */
 }
 
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif; /* Headings */
     font-weight: 700;
     color: #4A90E2;
+}
+
+h1 {
+    font-size: 50pt;
 }
 
 navbar {

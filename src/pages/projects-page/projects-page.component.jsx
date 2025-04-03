@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectComponent from "../../components/ProjectComponent";
+import "./projects-page.component.css"
 
 const ProjectsPage = () => {
   const projectList = [
@@ -22,7 +23,7 @@ const ProjectsPage = () => {
 
   return (
     <section className="projects-section">
-      <h1 className="section-title">My Projects</h1>
+      <h2 className="section-title">My Projects</h2>
       <div className="projects-container">
         {projectList.map((project, index) => (
           <ProjectComponent
