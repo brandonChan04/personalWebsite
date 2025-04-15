@@ -1,10 +1,24 @@
 import "./title-page.component.css";
+import profilePicture from "../../images/profile_picture.png";
+import { Linkedin, Github } from "lucide-react";
 
 function TitlePage() {
     return (
         <div className="title-container">
-            <h1>Hi I'm Brandon</h1>
-            <h1>An Aspiring Developer</h1>
+            <div>
+                <h1>Hi I'm Brandon<br/>An Aspiring Developer</h1>
+                <div className="nav-links">
+                    <a href="https://www.linkedin.com/in/brandon-chan-a10831165/" target="_blank" rel="noopener noreferrer">
+                        <Linkedin className="icon" />
+                    </a>
+                    <a href="https://github.com/brandonChan04" target="_blank" rel="noopener noreferrer">
+                        <Github className="icon" />
+                    </a>
+                </div>
+            </div>
+            <div>
+                <img src={profilePicture} alt="Profile" className="profile-image" />
+            </div>
         </div>
     )
 }

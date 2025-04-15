@@ -5,19 +5,29 @@ import "./projects-page.component.css"
 const ProjectsPage = () => {
   const projectList = [
     {
-      name: "Portfolio Website",
+      name: "Typle",
       description: "A personal portfolio website built with React and CSS.",
       image: "/images/portfolio.png",
+      github: "https://github.com/",
+      website: "https://github.com/",
     },
     {
-      name: "Weather App",
+      name: "Factory Escape Game",
       description: "A weather forecasting app using OpenWeather API.",
       image: "/images/weather-app.png",
+      github: "https://github.com/",
     },
     {
-      name: "Task Manager",
+      name: "Record Keeper App",
       description: "A simple task management app with drag-and-drop features.",
       image: "/images/task-manager.png",
+      website: "https://github.com/",
+    },
+    {
+      name: "Personal Website",
+      description: "A simple task management app with drag-and-drop features.",
+      image: "/images/task-manager.png",
+      website: "https://github.com/",
     },
   ];
 
@@ -31,6 +41,8 @@ const ProjectsPage = () => {
             name={project.name}
             description={project.description}
             image={project.image}
+            github={project.github}
+            website={project.website}
           />
         ))}
       </div>
