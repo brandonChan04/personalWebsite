@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectComponent from "../../components/ProjectComponent";
+import profilePicture from "../../images/profile_picture.png";
 import "./projects-page.component.css"
 
 const ProjectsPage = () => {
@@ -7,33 +8,39 @@ const ProjectsPage = () => {
     {
       name: "Typle",
       description: "A personal portfolio website built with React and CSS.",
-      image: "/images/portfolio.png",
+      image: profilePicture,
       github: "https://github.com/",
       website: "https://github.com/",
+      tags: [
+        'React',
+        'MongoDB',
+        'ExpressJS',
+        'RabbitMQ'
+      ]
     },
     {
       name: "Factory Escape Game",
       description: "A weather forecasting app using OpenWeather API.",
-      image: "/images/weather-app.png",
+      image: profilePicture,
       github: "https://github.com/",
     },
     {
       name: "Record Keeper App",
       description: "A simple task management app with drag-and-drop features.",
-      image: "/images/task-manager.png",
+      image: profilePicture,
       website: "https://github.com/",
     },
     {
       name: "Personal Website",
       description: "A simple task management app with drag-and-drop features.",
-      image: "/images/task-manager.png",
+      image: "../../images/profile_picture.png",
       website: "https://github.com/",
     },
   ];
 
   return (
-    <section className="projects-section">
-      <h2 className="section-title">My Projects</h2>
+    <div>
+      <h2>My Projects</h2>
       <div className="projects-container">
         {projectList.map((project, index) => (
           <ProjectComponent
@@ -43,10 +50,11 @@ const ProjectsPage = () => {
             image={project.image}
             github={project.github}
             website={project.website}
+            tags={project.tags}
           />
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 

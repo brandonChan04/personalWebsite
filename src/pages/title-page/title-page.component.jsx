@@ -1,6 +1,6 @@
 import "./title-page.component.css";
 import profilePicture from "../../images/profile_picture.png";
-import { Linkedin, Github } from "lucide-react";
+import { Linkedin, Github, Newspaper } from "lucide-react";
 
 function TitlePage() {
     return (
@@ -13,6 +13,9 @@ function TitlePage() {
                     </a>
                     <a href="https://github.com/brandonChan04" target="_blank" rel="noopener noreferrer">
                         <Github className="icon" />
+                    </a>
+                    <a href="https://github.com/brandonChan04" target="_blank" rel="noopener noreferrer">
+                        <Newspaper className="icon" />
                     </a>
                 </div>
             </div>
