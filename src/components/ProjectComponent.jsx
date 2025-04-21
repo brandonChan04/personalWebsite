@@ -8,7 +8,7 @@ const ProjectComponent = ({ name, description, image, github, website, tags }) =
       <img src={image} alt={name} className="project-image" />
 
       <div className="project-info">
-        <h3 className="project-name">{name}</h3>
+        <h3>{name}</h3>
         <p className="project-description">{description}</p>
 
         {(github || website) && (

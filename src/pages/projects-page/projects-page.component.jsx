@@ -1,40 +1,59 @@
 import React from "react";
 import ProjectComponent from "../../components/ProjectComponent";
 import profilePicture from "../../images/profile_picture.png";
+import factoryEscape from "../../images/factory_escape.png";
+import website from "../../images/p_website.png";
+import recordKeeper from "../../images/record_keeper.png";
+import typle from "../../images/typle.png";
 import "./projects-page.component.css"
 
 const ProjectsPage = () => {
   const projectList = [
     {
       name: "Typle",
-      description: "A personal portfolio website built with React and CSS.",
-      image: profilePicture,
-      github: "https://github.com/",
-      website: "https://github.com/",
+      description: "Typle is an online multiplayer web applicaiton. Using the MERN stack it allows users to track progression through levels and challenges. Typle also allows for real time online multiplayer battles using Socket.io",
+      image: typle,
+      github: "https://github.com/brandonChan04/typleFrontend",
+      website: "https://typle-frontend-v2.vercel.app/",
       tags: [
         'React',
         'MongoDB',
         'ExpressJS',
-        'RabbitMQ'
+        'NodeJS',
+        'Socket.io'
       ]
     },
     {
-      name: "Factory Escape Game",
-      description: "A weather forecasting app using OpenWeather API.",
-      image: profilePicture,
-      github: "https://github.com/",
+      name: "Factory Escape",
+      description: "Factory Escape is a simple Java game where players attempt to escape a guarded factory. Collect keys and coins while avoiding guards and other dangerous obstacles!",
+      image: factoryEscape,
+      github: "https://github.com/brandonChan04/factoryEscape",
+      tags: [
+        'Java',
+        'JavaScript',
+        'CSS',
+        'HTML'
+      ]
     },
     {
       name: "Record Keeper App",
-      description: "A simple task management app with drag-and-drop features.",
-      image: profilePicture,
-      website: "https://github.com/",
+      description: "A simple record keeper app used to keep track of game performances. Built using Android studio.",
+      image: recordKeeper,
+      github: "https://github.com/brandonChan04/recordKeeper",
+      tags: [
+        'Kotlin',
+        'XML',
+        'JavaScript',
+      ]
     },
     {
       name: "Personal Website",
-      description: "A simple task management app with drag-and-drop features.",
-      image: "../../images/profile_picture.png",
-      website: "https://github.com/",
+      description: "A simple website used to display my other projects. Built with React",
+      image: website,
+      github: "https://github.com/brandonChan04/personalWebsite",
+      tags: [
+        'React',
+      ]
     },
   ];
 

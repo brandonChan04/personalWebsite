@@ -11,10 +11,10 @@
 
 .experience-img {
     align-items: center;
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     border-radius: 8px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .experience-info {
@@ -25,30 +25,24 @@
     padding-bottom: 1rem;
 }
 
-.project-name {
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
-    margin: 0;
-}
-
 .project-description {
     font-size: 16px;
     color: #b0b0b0;
 }
 
-.project-tags {
+.date-title {
     display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.project-tag {
-    background-color: #e0e0e0;
-    color: #333;
-    padding: 5px 10px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 500;
+.experience-deatils {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.details {
+    color: #b0b0b0;
 }

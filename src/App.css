@@ -9,15 +9,35 @@ body {
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: #4A90E2;
 }
 
 h1 {
     font-size: 48pt;
+    color: #4A90E2;
 }
 
 h2 {
     font-size: 36pt;
+    color: #4A90E2;
+    margin: 0;
+}
+
+h3 {
+    font-size: 24pt;
+    color: white;
+    margin: 0;
+}
+
+h4 {
+    font-size: 16pt;
+    color: white;
+    margin: 0;
+}
+
+h5 {
+    font-size: 12pt;
+    color: grey;
+    margin: 0;
 }
 
 
@@ -31,6 +51,9 @@ navbar {
     width: 60%;
     margin: 0 auto;
     transition: width 0.3s ease;
+    gap: 10rem;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 1000px) {

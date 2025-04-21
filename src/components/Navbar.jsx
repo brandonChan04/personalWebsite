@@ -8,7 +8,7 @@ const scrollToSection = (id) => {
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h1 className="logo">Brandon</h1>
+      <h1 className="logo" onClick={() => scrollToSection("title")}>Brandon</h1>
 
       <div className="sections">
         <span onClick={() => scrollToSection("projects")}>Projects</span>

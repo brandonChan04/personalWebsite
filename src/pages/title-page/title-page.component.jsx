@@ -1,5 +1,6 @@
 import "./title-page.component.css";
 import profilePicture from "../../images/profile_picture.png";
+import resume from "./BrandonChanResume.pdf";
 import { Linkedin, Github, Newspaper } from "lucide-react";
 
 function TitlePage() {
@@ -14,7 +15,7 @@ function TitlePage() {
                     <a href="https://github.com/brandonChan04" target="_blank" rel="noopener noreferrer">
                         <Github className="icon" />
                     </a>
-                    <a href="https://github.com/brandonChan04" target="_blank" rel="noopener noreferrer">
+                    <a href={resume} download="BrandonChanResume.pdf" target="_blank" rel="noopener noreferrer">
                         <Newspaper className="icon" />
                     </a>
                 </div>

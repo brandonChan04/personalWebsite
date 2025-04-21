@@ -5,7 +5,7 @@
     padding-top: 60px;
     align-items: center;
     margin-top: 15rem;
-    margin-bottom: 25rem;
+    margin-bottom: 15rem;
     gap: 4rem;
 
     .icon {
@@ -14,10 +14,15 @@
         height: 40px;
         transition: transform 0.3s ease;
     }
-}
 
-.icon:hover {
-    transform: scale(1.2);
+    .icon:hover {
+        color: #4A90E2;
+    }
+
+    .nav-links {
+        gap: 10px;
+        display: flex;
+    }
 }
 
 .profile-image {
