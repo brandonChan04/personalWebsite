@@ -14,8 +14,8 @@
 }
 
 .logo {
-  font-size: 24px;
-  font-weight: bold;
+  width: 3rem;
+  cursor: pointer;
 }
 
 .sections {
@@ -27,4 +27,5 @@
 .sections :hover {
   color: #4A90E2;
   transition: 250ms;
+  cursor: pointer;
 }
