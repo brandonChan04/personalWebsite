@@ -11,10 +11,11 @@ const ExperienceEducationPage = () => {
             title: "Software Developer Intern",
             date: "Sep 2024 - April 2025",
             descriptions: [
-                "Developed Careflow, Excelars flagship application, using the Angular framework and TypeScript",
-                "Processed patient and user data coming from backend APIs, configuring signal Stores, services, and selectors to streamline data flow and neatly display information",
-                "Worked with the D3 framework to dynamically render patient data on Careflows real-timeupdating timeline",
-                "Styled pages with SCSS, Tailwind, and DaisyUI using modern best practices"
+                "Redesigned the visualization of Careflow datasets utilizing CDK and TanStack libraries, optimizing load times by 75%",
+                "Developed and implemented a virtualization algorithm for displaying AI marketplace models using Angular, PostgreSQL and AWS S3 deploying features with Jenkins, creating an application similar to HuggingFace",
+                "Developed and deployed redesigned Careflow  timeline implementing D3 JS framework reducing scrolling latency by 50%",
+                "Designed and implemented tools API client streamlining all front-end API calls, reducing memory allocation and storage by 25%",
+                "Constructed and implemented styling presets, templates, directives, and guidelines product-wide using Tailwind and DaisyUI reducing development time by 20%"
             ],
             image: excelar,
         },
@@ -23,9 +24,9 @@ const ExperienceEducationPage = () => {
             title: "Developer Assistant",
             date: "June 2021 - September 2021",
             descriptions: [
-                "Programmed, tested, and assembled DEV kits to be deployed to customers",
-                "Soldered, crimped, and configured wires to help with various projects",
-                "Collaborated in a team based setting with professional hardware and software engineers to streamline workflow"
+                "Wrote and implemented Python scripts for training Open-Q Development Kits, streamlining the implementation process and reducing pairing times by 50%",
+                "Developed and executed test scripts to verify the functionality and performance of factory-produced Open-Q Development Kits, eliminating manual testing and reducing test time by 95%",
+                "Assembled and configured Open-Q Development Kits and TOGG computational infrastructure, including soldering and crimping"
             ],
             image: lantronix,
         }

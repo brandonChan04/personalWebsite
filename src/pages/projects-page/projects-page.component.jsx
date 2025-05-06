@@ -20,7 +20,7 @@ const ProjectsPage = () => {
         'MongoDB',
         'ExpressJS',
         'NodeJS',
-        'Socket.io'
+        'Socket.IOs '
       ]
     },
     {
