@@ -11,18 +11,19 @@
 
 .experience-img {
     align-items: center;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     border-radius: 8px;
     object-fit: contain;
+    /* border: 1px solid #3b82f6; */
 }
 
 .experience-info {
     flex: 1;
-    padding-left: 5rem;
+    padding-left: 3rem;
     padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1rem; */
 }
 
 .project-description {

@@ -6,7 +6,7 @@ const ExperienceCompnent = ({ company, title, date, descriptions, image }) => {
         <div className="experience">
             <img src={image} alt={company} className="experience-img"/>
             <div className="experience-info">
-                <h3>{company}</h3>
+                <h3 className="">{company}</h3>
                 <div className="date-title">
                     <h4>{title}</h4>
                     <h5>{date}</h5>

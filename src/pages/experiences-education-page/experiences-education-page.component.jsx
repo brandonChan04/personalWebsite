@@ -1,28 +1,36 @@
 import ExperienceCompnent from "../../components/ExperienceComponent";
-import excelar from "../../images/excelar_logo.png";
+import excelar from "../../images/excelar.png";
 import lantronix from "../../images/lantronix.png";
 import sfu from "../../images/sfu.png";
+import canAI from "../../images/canAI.png";
 import "./experiences-education-page.component.css"
 
 const ExperienceEducationPage = () => {
     const experiences = [
         {
+            company: "CanAI Garage - Public Services and Procurement Canada",
+            title: "Incoming Machine Learning Software Engineer Intern",
+            date: "Sep 2025 - Dec 2025",
+            descriptions: [],
+            image: canAI,
+        },
+        {
             company: "Excelar Technologies",
             title: "Software Developer Intern",
-            date: "Sep 2024 - April 2025",
+            date: "Sep 2024 - Apr 2025",
             descriptions: [
                 "Redesigned the visualization of Careflow datasets utilizing CDK and TanStack libraries, optimizing load times by 75%",
                 "Developed and implemented a virtualization algorithm for displaying AI marketplace models using Angular, PostgreSQL and AWS S3 deploying features with Jenkins, creating an application similar to HuggingFace",
                 "Developed and deployed redesigned Careflow  timeline implementing D3 JS framework reducing scrolling latency by 50%",
                 "Designed and implemented tools API client streamlining all front-end API calls, reducing memory allocation and storage by 25%",
-                "Constructed and implemented styling presets, templates, directives, and guidelines product-wide using Tailwind and DaisyUI reducing development time by 20%"
+                // "Constructed and implemented styling presets, templates, directives, and guidelines product-wide using Tailwind and DaisyUI reducing development time by 20%"
             ],
             image: excelar,
         },
         {
             company: "Lantronix Technologies",
-            title: "Developer Assistant",
-            date: "June 2021 - September 2021",
+            title: "Junior Programmer",
+            date: "Jun 2021 - Sep 2021",
             descriptions: [
                 "Wrote and implemented Python scripts for training Open-Q Development Kits, streamlining the implementation process and reducing pairing times by 50%",
                 "Developed and executed test scripts to verify the functionality and performance of factory-produced Open-Q Development Kits, eliminating manual testing and reducing test time by 95%",
