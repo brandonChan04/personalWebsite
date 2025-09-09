@@ -6,10 +6,26 @@ import website from "../../images/p_website.png";
 import recordKeeper from "../../images/record_keeper.png";
 import typle from "../../images/typle.png";
 import paytrack from "../../images/paytrack.png";
+import icevision from "../../images/icevision.png"
 import "./projects-page.component.css"
 
 const ProjectsPage = () => {
   const projectList = [
+    {
+      name: "IceVision",
+      description: "IceVision is a web app that detects hockey players in video clips. A custom-trained model powers an API that can analyze images or videos and return player positions. The system is deployed on AWS and served securely over the web. A simple frontend lets users upload clips (or view demos) and see boxes drawn over the players in real time.",
+      image: icevision,
+      github: "https://github.com/brandonChan04/paytrack",
+      website: "https://ice-vision-frontend.vercel.app/",
+      tags: [
+        'YoloV11',
+        'Ultralytics',
+        'FastAPI',
+        'Docker',
+        'AWS ECS Fargate',
+        'Vercel'
+      ]
+    },
     {
       name: "Paytrack",
       description: "Paytrack is a simple but powerful web application that allows users to track their outgoing invoices. Using VueJS and Firebase, Paytrack allows users to create, edit, and delete invoices sending them to their clients and allowing for easy tracking of payments.",
