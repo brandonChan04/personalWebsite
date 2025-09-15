@@ -9,7 +9,7 @@ const ExperienceEducationPage = () => {
     const experiences = [
         {
             company: "CanAI Garage - Public Services and Procurement Canada",
-            title: "Incoming Machine Learning Software Engineer Intern",
+            title: "Machine Learning Software Engineer Intern",
             date: "Sep 2025 - Dec 2025",
             descriptions: [],
             image: canAI,
