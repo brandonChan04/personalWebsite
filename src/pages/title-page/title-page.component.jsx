@@ -22,7 +22,7 @@ function TitlePage() {
                         <span className="tooltip">GitHub</span>
                     </div>
                     <div className="icon-wrapper">
-                        <a href={resume} download="BrandonChanResume.pdf" target="_blank" rel="noopener noreferrer">
+                        <a href={resume} target="_blank" rel="noopener noreferrer">
                             <Newspaper className="icon" />
                         </a>
                         <span className="tooltip">Resume</span>
@@ -33,7 +33,7 @@ function TitlePage() {
                 <img src={profilePicture} alt="Profile" className="profile-image" />
             </div>
         </div>
-    )
+    );
 }
 
 export default TitlePage;
